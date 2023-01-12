@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItsMyKart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="75px" alt="">
+
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Top Deals</a></li>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">Comforters</a></li>
+                    </ul>
+                </nav>
+                <img src="images/kart.png" width="25px" height="25px" alt="">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Summer Offer: <br>New Arrivals</h1>
+                    <p>Big Fashion Sale! Upto 50% off.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------featured categories----------- -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/cat1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/cat2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/cat3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------featured products----------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product1.jpg" alt="">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product2.jpg" alt="">
+                <h4>Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product3.jpg" alt="">
+                <h4>Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product4.jpg" alt="">
+                <h4>T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product1.jpg" alt="">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product2.jpg" alt="">
+                <h4>Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product3.jpg" alt="">
+                <h4>Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product4.jpg" alt="">
+                <h4>T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product5.jpg" alt="">
+                <h4>Sunglasses</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product6.jpg" alt="">
+                <h4>Heels</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product7.jpg" alt="">
+                <h4>Backpack</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product8.jpg" alt="">
+                <h4>Ring</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1999</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------offer------ -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/Exclusive.jpg" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive discocunts on ItsMyKart</p>
+                    <h1>Find the perfect outfit with our new arrivals!</h1>
+                    <small>Get Attractive offers and discounts on Tops, Bottoms, Makeup, etc.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------footer------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Doha Office</h3>
+                    <p> Zone 26, Building 30, Street al Sana, Najma, Doha-Qatar.</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="">
+                    <p><strong>PHONE & WHATSAPP:</strong> +97455019890</p>
+                    <p><strong>EMAIL: </strong><a href="mailto:operations@itsmykart.com"> operations@itsmykart.com</a>
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links:</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Connect With Us: </h3>
+                    <ul>
+                        <a href="https://www.facebook.com/">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://in.pinterest.com/">
+                            <li>Pinterest</li>
+                        </a>
+                        <a href="https://twitter.com/">
+                            <li>Twitter</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">©2022 Best Online Shopping Site in Qatar | Best Deals & Offers | itsmykart.com All
+                rights reserved</p>
+        </div>
+    </div>
+    <!------------js for toggle menu----- -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
